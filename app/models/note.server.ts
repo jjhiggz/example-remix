@@ -14,6 +14,7 @@ export function getNote({
   });
 }
 
+const a =
 export function getNoteListItems({ userId }: { userId: User["id"] }) {
   return prisma.note.findMany({
     where: { userId },
